@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JHR Company</title>
+    <title>Serviços JHR Company</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -11,12 +11,16 @@
       <header>
         <div class="container site-header-main">
           <nav id="site-navigation" class="main-navigation">
-            <img src="./img/JHRcompany.png" height="150px" alt="" />
+            <img
+              src="./img/JHRcompany.png"
+              height="150px"
+              alt="JHR Company logo"
+            />
             <ul id="menu-principal" class="primary-menu">
-              <li><a href="./index.html">Sobre nós</a></li>
+              <li><a href="./index.html#Integrantes">Sobre nós</a></li>
               <li><a href="./index.html#Contato">Contato</a></li>
-              <li><a href="#">Projetos</a></li>
-              <li><a href="./servicos.html">Serviços</a></li>
+              <li><a href="./project.html">Projetos</a></li>
+              <li><a href="#">Serviços</a></li>
             </ul>
           </nav>
           <div class="sec-menu">
@@ -29,43 +33,47 @@
           </div>
         </div>
       </header>
-      <main>
-        <div class="fullcontainer bgfundo">
-          <img src="./img/banner.jpg" alt="" />
+
+      <div class="servicos">
+        <div class="projetos">
+          <div class="row">
+            <div class="bar">
+              <div class="info">
+                <img src="./img/banner.jpg" alt="" height="201px" width="367">
+                <span>Security CTRL</span>
+                <button><a href="./project.html">Saiba mais</a></button>
+                </div>
+              </div>
+            </div>
         </div>
 
-        <!-- <div class="banner">
-          <div class="img">
-            <img src="https://placehold.co/1920x819" alt="" />
+        <div class="projetos">
+            <div class="row">
+              <div class="bar">
+                <div class="info">
+                  <img src="./img/sesmt.jpg" alt="" height="201" width="367">
+                  <span>Terceirização</span>
+                  <button><a href="./index.html#Contato">Saiba mais</a></button>
+                  </div>
+                </div>
+              </div>
           </div>
-          <divç class="titulo">
-            <img src="https://placehold.co/573x105" alt="" />
+
+          <div class="projetos">
+            <div class="row">
+              <div class="bar">
+                <div class="info">
+                  <img src="./img/epis.jpg" alt="" height="201" width="367">
+                  <span>EPI's</span>
+                  <button><a href="#">Saiba mais</a></button>
+                  </div>
+                </div>
+              </div>
           </div>
-        </div> -->
-
-        <div id="img">
-          <div class="sobre">
-            <h1>Sobre o projeto</h1>
-            <p>
-              O projeto SecurityCtrl utiliza sensores, NFC e inteligência
-              artificial para monitorar o uso correto de Equipamentos de
-              Proteção Individual (EPIs) em ambientes de trabalho. O sistema
-              alerta sobre EPIs incorretos ou danificados e verifica se os
-              operadores estão adequadamente equipados. Inclui um aplicativo
-              para monitoramento e incentivo ao cumprimento das normas de
-              segurança. O objetivo é reduzir acidentes de trabalho e melhorar a
-              saúde e bem-estar dos trabalhadores. 
-            </p>
-          </div>
-          <img src="./img/security_ctrl_7.png" height="461px" />
-        </div>
-      </main>
-
-      <div class="form"></div>
-
+      </div>
       <footer>
         <div id="dados">
-          <img src="./img/JHRcompany.png" height="150px" alt="" id="logo" />
+          <img src="./img/JHRcompany.png" height="150px" alt="" class="logo" />
           <div id="copyright">
             Todos os direitos reservados | @JHR
             <script>
@@ -82,7 +90,6 @@
           </div>
         </div>
       </footer>
-    </div>
   </body>
   <script
     type="module"

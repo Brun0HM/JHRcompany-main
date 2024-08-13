@@ -90,10 +90,10 @@ header {
 }
 
 #Apresentacao {
-display: flex;
-justify-content: center;
-margin-top: 80px;
-margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 .boasvindas {
@@ -157,7 +157,7 @@ margin-bottom: 100px;
 
 .forms input,
 .forms textarea {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 #Contato {
@@ -315,7 +315,7 @@ button:hover span:not(:nth-child(6)) {
 }
 
 #img img {
-border-radius: 30px;
+  border-radius: 30px;
   margin: 107px 130px 100px 0;
   padding: 20px;
 }
@@ -365,4 +365,66 @@ footer #dados:first-child {
 #copyright {
   text-align: center;
   margin-top: 100px;
+}
+
+.servicos {
+  display: flex;
+  margin: 10%;
+}
+
+.projetos {
+  color: white;
+  border-radius: 26px;
+  padding: 32px;
+  width: 70%;
+}
+
+.projetos .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  gap: 1.8em;
+}
+
+.projetos .bar {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 1em;
+  background: #2b2b2b;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.projetos .bar:hover {
+  box-shadow: 0 4px 10px #000;
+  transform: scale(1.1);
+}
+
+.projetos .bar .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.projetos .bar .info span {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.servicos button {
+  width: 200px;
+  height: 70px;
+}
+
+.servicos button a {
+  font-size: 1.5em;
+  font-weight: 800;
+  text-decoration: none;
+  color: #fff;
+}
+
+.servicos button:hover {
+  background: #5941cf;
 }
